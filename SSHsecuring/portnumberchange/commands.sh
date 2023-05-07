@@ -1,5 +1,5 @@
 vim /etc/ssh/sshd_conifg     // Open the configuration file in vim. Change the options Port 22 from Port 2000
-
+setenforce 0
 firewall-cmd --permanent --add-port=2000/tcp // Make sure you add the new port number to your firewall so it doesn't block the incoming connection. 
 
 firewall-cmd --reload
