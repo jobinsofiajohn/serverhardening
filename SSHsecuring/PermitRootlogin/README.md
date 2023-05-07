@@ -1,0 +1,1 @@
+Disable root login over SSH: The root account has unlimited access to the system and is a prime target for attackers. Disable root login over SSH to prevent attackers from gaining access to your system using the root account. You can do this by editing the /etc/ssh/sshd_config file and setting the PermitRootLogin parameter to no.
