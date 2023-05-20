@@ -62,5 +62,6 @@ post_max_size=4M
 
 save and exit
 
+for performance you could enable opcache.so in config file
 
 
