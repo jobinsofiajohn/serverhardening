@@ -15,4 +15,4 @@ cd /usr/local/chkrootkit
 ./chkrootkit -q
 //save and exit
 
-./chkrootkit.sh
+./chkrootkit.sh // to run the script
