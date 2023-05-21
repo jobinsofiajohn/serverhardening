@@ -15,4 +15,6 @@ cd /usr/local/chkrootkit
 ./chkrootkit -q
 //save and exit
 
+chmod u+x chrootkit.sh
+
 ./chkrootkit.sh // to run the script
